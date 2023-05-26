@@ -1,0 +1,54 @@
+[
+    {
+        "id": "ec0c8acde8a2980f",
+        "type": "mqtt in",
+        "z": "535371609c5de46c",
+        "name": "",
+        "topic": "hum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "19391086efdce275",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "9f4efc88a3968911",
+                "3bd8a78374ec2016",
+                "5c0a66b1a104ccce",
+                "3c18baecf042bbf9"
+            ]
+        ]
+    },
+    {
+        "id": "19391086efdce275",
+        "type": "mqtt-broker",
+        "name": "dash",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": "",
+        "credentials": {}
+    }
+]

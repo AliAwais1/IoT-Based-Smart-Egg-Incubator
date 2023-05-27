@@ -1,0 +1,4 @@
+# IoT-Based-Smart-Egg-Incubator 
+#IoT #Internet Of Things #NodeRed #Mqtt #Incubator
+
+We are creating a smart egg incubator that will be user friendly and will produce more valuable production and hatching for different types of eggs. In our project we are building an IOT based Smart Egg Incubator that automatically controls and monitors the level of temperature and humidity inside the incubator through sensors and automatically collects the data and sends it to our web Based IOT Platform (Node-Red) for visualization. Cooling (Fan) and heating (Light bulb) systems are installed that help in maintaining the temperature and humidity inside the incubator. Eggs are placed inside the incubator containing the rotating tray that automatically turns the eggs after some time so that eggs remain in good healthy condition.
